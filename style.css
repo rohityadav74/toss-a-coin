@@ -1,0 +1,51 @@
+body{
+    height: 100vh;
+    font-family:cursive;
+    font-size: large;
+}
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+h2{
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin:20px 10px 40px 10px;
+}
+p{
+    text-align: center;
+}
+.flip{
+    animation:flipIt 1s linear;
+}
+.img{
+    animation-delay:0.5s;
+}
+@keyframes flipIt{
+    0%{
+        width:0px;
+        height:180px;
+    }
+    25%{
+        width:188px;
+        height: 188px;
+    }
+    50%{
+        width:0px;
+        height:188px;
+    }
+    100%{
+        width:0px;
+        height:188px;
+    }
+}
+div.image{
+    text-align: center;
+}
+.button1{
+    text-align: center;
+    margin-top:40px;
+}
